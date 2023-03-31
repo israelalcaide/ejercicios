@@ -1,0 +1,59 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.table1 td,
+th {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 70px;
+}
+
+.table2 td,
+th {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 25.5px;
+}
+
+.table3 td,
+th {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-right: 84.5px;
+}
+
+.table1 tr:nth-of-type(1) > th {
+  background-color: rgb(226, 84, 84);
+  color: white;
+  border-collapse: 0;
+  border: 0;
+}
+
+.table2 tr:nth-of-type(1) > th {
+  background-color: rgb(116, 177, 119);
+  color: white;
+}
+
+.table3 tr:nth-of-type(1) > th {
+  background-color: rgb(85, 76, 173);
+  color: white;
+}
+
+tr:nth-of-type(odd) > td {
+  background-color: rgb(224, 224, 224);
+  color: black;
+}
+
+tr:nth-of-type(even) > td {
+  background-color: white;
+  color: black;
+}
+
+tr:nth-of-type(odd) > td {
+  background-color: lightgray;
+  color: black;
+}
