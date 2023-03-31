@@ -1,0 +1,17 @@
+.root {
+
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  width: 100%;
+  font-size: 2em;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: aqua;
+  height: 50vh;
+  grid-auto-flow: row;
+}
